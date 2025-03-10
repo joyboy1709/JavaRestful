@@ -4,7 +4,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class Persona {
-
+      //variables
     private int id;
     
     private String nombre;
