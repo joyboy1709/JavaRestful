@@ -24,7 +24,7 @@ public class Persona {
         this.salario = calcularSalario(edad);
     }
 
-    // Método para calcular el salario
+   
     private double calcularSalario(int edad) {
         double SALARIO_MINIMO = 1000;  
         return (edad * SALARIO_MINIMO) / 3;
@@ -52,7 +52,6 @@ public class Persona {
 
     public void setEdad(int edad) {
         this.edad = edad;
-        // Actualiza el salario si cambia la edad
         this.salario = calcularSalario(edad);
     }
 
